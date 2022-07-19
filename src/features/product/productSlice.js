@@ -37,11 +37,6 @@ const slice = createSlice({
       state.totalPages = action.payload.totalPages;
     },
   
-    setProductById(state, action) {
-      state.isLoading = false;
-      state.error = null;
-      state.productById = {};
-    },
     updateQuantityProductSuccess(state, action) {
       state.isLoading = false;
       state.error = null;

@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions, Stack } from "@mui/material";
 import { useDispatch } from "react-redux";
-import { getProductsById } from "../features/product/productSlice";
+import { getProductsById} from "../features/product/productSlice";
 import { useNavigate } from "react-router-dom";
 import AddToCard from "./AddToCard";
 import "./styleCard.css";
